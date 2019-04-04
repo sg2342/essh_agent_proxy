@@ -1,0 +1,14 @@
+{application, essh_agent_proxy,
+ [{description, "ssh-agent proxy, graft certificates"},
+  {vsn, git},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
